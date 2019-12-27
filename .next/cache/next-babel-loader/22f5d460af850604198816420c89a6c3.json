@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\n\nconst Post = props => __jsx(\"article\", null, __jsx(\"p\", null, \"Hola desde Post\"));\n\nexport default Post;","map":null,"metadata":{},"sourceType":"module"}
