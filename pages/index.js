@@ -1,16 +1,17 @@
 import Posts from '../components/Posts'
 import Tags from '../components/Tags'
 import fetch from 'isomorphic-unfetch'
+import '../styles/style.css'
 
 const Index=(props)=>(
-    <>
+    <div className='container'>
         <h1>Acumulado Grilla</h1>
         <Tags tags={props.tags}/>
         <div>
             <Posts articles={props.articles} />
             
         </div>
-    </>
+    </div>
 )
 
 //Elimina los objetos duplicados. Se utiliza para eliminar las tags repetidas

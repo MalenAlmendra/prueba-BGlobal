@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -302,6 +302,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Tags__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Tags */ "./components/Tags.jsx");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/style.css */ "./styles/style.css");
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\Malen\\Desktop\\prueba-bglobal\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -309,30 +311,38 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Index = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h1", {
+
+const Index = props => __jsx("div", {
+  className: "container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
+  },
+  __self: undefined
+}, __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
   },
   __self: undefined
 }, "Acumulado Grilla"), __jsx(_components_Tags__WEBPACK_IMPORTED_MODULE_2__["default"], {
   tags: props.tags,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 9
   },
   __self: undefined
 }), __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx(_components_Posts__WEBPACK_IMPORTED_MODULE_1__["default"], {
   articles: props.articles,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 11
   },
   __self: undefined
 }))); //Elimina los objetos duplicados. Se utiliza para eliminar las tags repetidas
@@ -385,7 +395,18 @@ Index.getInitialProps = async req => {
 
 /***/ }),
 
-/***/ 4:
+/***/ "./styles/style.css":
+/*!**************************!*\
+  !*** ./styles/style.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

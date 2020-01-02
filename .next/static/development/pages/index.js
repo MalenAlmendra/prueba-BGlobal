@@ -20721,6 +20721,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Tags__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Tags */ "./components/Tags.jsx");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/style.css */ "./styles/style.css");
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
 var _jsxFileName = "C:\\Users\\Malen\\Desktop\\prueba-bglobal\\pages\\index.js";
@@ -20730,31 +20732,39 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
+
 var Index = function Index(props) {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx("h1", {
+  return __jsx("div", {
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
+    },
+    __self: this
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
     },
     __self: this
   }, "Acumulado Grilla"), __jsx(_components_Tags__WEBPACK_IMPORTED_MODULE_4__["default"], {
     tags: props.tags,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, __jsx(_components_Posts__WEBPACK_IMPORTED_MODULE_3__["default"], {
     articles: props.articles,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   })));
@@ -20918,7 +20928,7 @@ Index.getInitialProps = function _callee(req) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!***********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMalen%5CDesktop%5Cprueba-bglobal%5Cpages%5Cindex.js ***!
   \***********************************************************************************************************************************/
@@ -20941,5 +20951,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
