@@ -5,7 +5,8 @@ body{
    font-family:"Arial","Georgia","sans-serif"
 }
 h1{
-   font-weight: lighter;
+   font-weight: 500;
+    line-height: 2.3125rem;
    font-family: "Georgia","sans-serif";
 }
 a{
