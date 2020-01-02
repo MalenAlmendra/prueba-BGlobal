@@ -5,16 +5,12 @@ const Tags =(props)=>{
         <div className="tags">
         {
             props.tags.slice(0,10).map(t=>(
-            <a href={`/temas/`+t.slug}>• {t.text}</a>
+                <>
+                    <a className="tag" href={`/temas/`+t.slug}>{t.text}</a> 
+                    •
+                </>
             ))
         }
-        <style jsx>
-            {`
-                .tags{
-                    display:flex;
-                }
-            `}
-        </style>
         </div>
     )
 }

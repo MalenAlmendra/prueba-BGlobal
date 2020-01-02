@@ -1,12 +1,47 @@
 body{
-   margin: 0;
+   margin: 0 2.5em;
    padding: 0;
    box-sizing: border-box;
-   font-family:"Georgia","serif"
+   font-family:"Arial","Georgia","sans-serif"
+}
+h1{
+   font-weight: lighter;
+   font-family: "Georgia","sans-serif";
+}
+a{
+   color:#006998;
 }
 
 .container{
-
+   display:  grid;
+   grid-template-columns: repeat(12,1fr);
 }
+
+.title,.tags{
+   grid-column: span 12;
+}
+.posts{
+   grid-column: span 8;
+   margin-top: 2em;
+   display: grid;
+   grid-template-columns: repeat(12,1fr);
+   grid-gap: 2.5em;
+}
+
+.post{
+   grid-column: span 4;
+}
+
+.image{
+   max-width: 100%;
+}
+
+.tag{
+   padding: 0 .5em;
+}
+
+/* .tag::after{
+   content: '•';
+} */
 
 /*# sourceMappingURL=styles.chunk.css.map*/

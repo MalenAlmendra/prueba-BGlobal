@@ -8,10 +8,10 @@ const Post = (props)=>{
     let date = moment(props.art.display_date).format('D MMMM YYYY');
 
     if (props.art.promo_items){
-        if(props.art.promo_items.basic.resized_urls){
-            image=<img src={props.art.promo_items.basic.resized_urls[2].resizedUrl} alt={props.art.promo_items.basic.subtitle} />
+        // if(props.art.promo_items.basic.resized_urls){
+        //     image=<img src={props.art.promo_items.basic.resized_urls[2].resizedUrl} alt={props.art.promo_items.basic.subtitle} />
             
-        }else
+        // }else
             image= <img className="image" src={props.art.promo_items.basic.url} alt={props.art.promo_items.basic.subtitle}/>
     }
     
@@ -22,10 +22,9 @@ const Post = (props)=>{
             <article>
                 {/* Image */}
                 <div>
-                    {
-                        image
-                    }
+                    {image}
                 </div>
+
                 {/* Content text */}
                 <div>
                     <h1>
@@ -34,23 +33,6 @@ const Post = (props)=>{
                     <p>{date}</p>
                 </div>
             </article>
-            <style jsx>
-                {`
-                    h1{
-                        color:#0f0f0f
-                    }
-                    .post{
-                        grid-column:span 4;
-                    }
-                    
-                `}
-            </style>
-            <style global jsx>{`
-                
-                img {
-                  max-width:171px;
-                }
-            `}</style>
         </div>
     
     )

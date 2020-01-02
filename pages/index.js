@@ -5,12 +5,13 @@ import '../styles/style.css'
 
 const Index=(props)=>(
     <div className='container'>
-        <h1>Acumulado Grilla</h1>
-        <Tags tags={props.tags}/>
-        <div>
-            <Posts articles={props.articles} />
-            
+        <div className="title">
+            <h1>Acumulado Grilla</h1>
         </div>
+        <Tags tags={props.tags}/>
+        <Posts articles={props.articles} />
+            
+        
     </div>
 )
 
